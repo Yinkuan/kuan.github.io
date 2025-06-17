@@ -1,0 +1,45 @@
+
+body {
+  font-family: Arial, sans-serif;
+  background: #f4f4f4;
+  /*background: #2c3e50;*/
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+header {
+  /*background: #005f99;*/
+  background: #2c3e50;
+  color: white;
+  padding: 2rem;
+  text-align: center;
+}
+
+section {
+  padding: 1.5rem 2rem;
+  background: #fff;
+  margin: 1rem auto;
+  max-width: 800px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.profile {
+  text-align: center;
+}
+
+.profile img {
+  width: 250px;
+  height: 250px;         /* 强制设置高度等于宽度 */
+  object-fit: cover;     /* 保证内容不变形并裁剪成圆形 */
+  border-radius: 50%;    /* 圆形效果 */
+  margin-bottom: 1rem;
+}
+
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  background: #ddd;
+}
